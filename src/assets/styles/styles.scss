@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  .header_link {
+    font-style: none;
+    color: black;
+    text-decoration: none;
+  }
+  .header_link_active {
+    font-weight: bold;
+    color: blue;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  background-size: cover;
+}
+
+.photo-form {
+  width: 50%;
+  margin: auto;
+  .img-random {
+    height: 100px;
+    width: 100px;
+  }
+}
